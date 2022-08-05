@@ -588,7 +588,7 @@ margin: 50px;
   margin: 50px;
   background:  linear-gradient(to left, #354ced, #6462d9); ;
 }
-@media (max-width: 400px){
+@media (max-width: 500px){
 .conhecimentos{
     height: 100%;
     display: flex;
@@ -606,7 +606,7 @@ margin: 50px;
 }
 .banner h1 {
 
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 .banner p {
    font-size: 1.5rem;
@@ -618,9 +618,12 @@ margin: 50px;
 .conhecimentos-img-wrapper {
     display: none;
   }
+.conhecimento:nth-child(6) {
+    margin-bottom: 25px;
+}
 .projetos{
   margin: 20px;
-  gap: 10px;
+  gap: 7px;
   height: auto;
 }
 .card-info {
@@ -650,6 +653,9 @@ margin: 50px;
   width: 72%;
   padding: 0rem 3rem 3rem 3rem;
 }
+.sessao-contato{
+  height: 75vh;
+}
 .sessao-contato h1{
   font-size: 1.7rem;
 }
@@ -664,4 +670,17 @@ margin: 50px;
 .field label{
   font-size: 0.8rem;
 }
+.footer-content {
+    width: 75%;
+
+}
+.footer-content p {
+    font-size: 1rem;
+    margin-top: 20px;
+}
+.social-list ul {
+    margin-top: 39px;
+}
+
+
 }
